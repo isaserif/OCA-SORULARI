@@ -20,7 +20,7 @@ public class PostIncrementSorusu {
                 num2=9  olur
                 ardından num1 e 1 arttırılıyor
                 num1=10 olur
-                num2 10 dan küçük olduğu için ; System.out.println(num2+ " Hello word");  çalışır.
+             cevap::   num2 10 dan küçük olduğu için ; System.out.println(num2+ " Hello word");  çalışır.
 
                 eğer int num2=++num1; preIncrement olsaydı
                 num2=10 olur
