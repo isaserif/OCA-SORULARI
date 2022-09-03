@@ -11,12 +11,11 @@ public class Ternary {
         int x =5;
         System.out.println(x>2 ? x<4 ? 10 : 8: 7);
 /*
-       1. aşama:    "5" 2 den büyük olduğu için "x<4 ? 10 : 8" bölümü çalışır ve ": 7" devre dışı kalır.
-       2. aşama:     "5" 4 den büyük olduğu için  ": 8" bölümü çalışır ve ekrana 8 yazdırır.
+       1. aşama:    "5 sayısı" 2 den büyük olduğu için "x<4 ? 10 : 8" bölümü çalışır ve ": 7" devre dışı kalır.
+       2. aşama:     "5 sayısı" 4 den büyük olduğu için  ": 8" bölümü çalışır ve ekrana 8 yazdırır.
 */
 
-
-        // verilen bir sayının tek veya çift olduğunu yazdıran bir kod yazınız.
+        // ÖRNEK: verilen bir sayının tek veya çift olduğunu yazdıran bir kod yazınız.
         //if else ile
         int sayi1=20;
         if (sayi1%2==0){
@@ -24,21 +23,10 @@ public class Ternary {
         }else {
             System.out.println("sayı tektir");
         }
-
+        
         //Ternary ile
-
         int sayı2=5;
-
-
         System.out.println(sayı2%2==0?"sayı çifttir":"sayı tektir");
-
-
-
-
-
-
-
-
 
     }
 }
