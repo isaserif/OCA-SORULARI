@@ -7,8 +7,8 @@ public class PostIncrementSorusu {
         Given num1 as 9 in the code block below
          What happens to the output?
          */
-        //postIncrement: önce atama yap sonra arttır.
-        //preIncrement: önce değer arttır sonra ata
+        //postIncrement: Assign first, then increment.  (önce atama yap sonra arttır.)
+        //preIncrement: first increment then assign     (önce değer arttır sonra ata)
         int num1=9;
         int num2=num1++;// postıncrement
 
