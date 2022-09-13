@@ -36,26 +36,22 @@ public class DataCasting {
         long x=10;
         long y=   (2*x);
         System.out.println(y);
-
-
-
-
-
-
-
+       //BENZER ÖRNEKLER
 
         byte num1=15;
         short num2=num1;
+        System.out.println(num2);
 
         long num3=1500;
         double num4=num3;
-
+        System.out.println(num4);
 
          int num5=65;
         short num6= (short) num5;//(short) int büyük olmasına rağmen short a sığar deriz
+        System.out.println(num6);
        num5=150;
        byte num7= (byte) num5;
-        System.out.println(num7);//num7=-106
+        System.out.println(num7);    //num7=-106
 
 
 
